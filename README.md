@@ -17,4 +17,4 @@
 5. Open `frontend` and `backend` in two seperate terminals
 6. Run `npm i` in both the terminals
 7. Run `npm start` in both the terminals
-8. React app will open in `http://localhost:3000/
+8. React app will open in `http://localhost:3000/`
