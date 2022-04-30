@@ -6,6 +6,7 @@ import Employees from './pages/Employees';
 import EmployeeDetails from './pages/EmployeeDetails';
 import Home from './pages/Home';
 import EmployeeCreate from './pages/EmployeeCreate';
+import WorkDetails from './pages/WorkDetails';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             path={routes.employeeDetails()}
             element={<EmployeeDetails />}
           />
+          <Route path={routes.workDetails()} element={<WorkDetails />} />
         </Routes>
       </AppLayout>
     </Fragment>

@@ -11,4 +11,9 @@ export const routes = {
   employeeDetails: (id) => {
     return id ? `/employee/${id}` : `/employee/:id`;
   },
+  workDetails: (employeeId, weekNumber) => {
+    return employeeId
+      ? `/work/${employeeId}/${weekNumber}`
+      : `/work/:employeeId/:weekNumber`;
+  },
 };
