@@ -13,7 +13,8 @@
    - `username` is the username you can log in to the database with
    - `nodejs_employee_management` is the name of the freshly created database
    - `dbexport.sql` is the data dump file to be imported, which is located in `database` directory
-4. Open `frontend` and `backend` in two seperate terminals
-5. Run `npm i` in both the terminals
-6. Run `npm start` in both the terminals
-7. React app will open in `http://localhost:3000/
+4. Inside `backend` directory create a `.env` file and put the variables as mentioned in `env.example` file with your own data
+5. Open `frontend` and `backend` in two seperate terminals
+6. Run `npm i` in both the terminals
+7. Run `npm start` in both the terminals
+8. React app will open in `http://localhost:3000/
